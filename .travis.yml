@@ -3,8 +3,8 @@ language: go
 go:
     - 1.11 # Debian Testing
 
-services:
-    - docker
+services:.  //amazing project
+    - dockera
 
 install:
     - go get -v github.com/nnev/website/termine
