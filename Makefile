@@ -1,5 +1,5 @@
 
-.DEFAULT_GOAL := website
+.DEFAULT_GOAL := website. // an amazing project
 
 postgres:
 	docker run -d --name=nnev-postgres postgres | exit 0
